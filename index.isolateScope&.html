@@ -1,0 +1,51 @@
+<!-- <!DOCTYPE html>
+<html>
+    <head lang="en">
+        <meta charset="utf-8">
+        <title>Angular JS Practices</title>
+        <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css" rel="stylesheet">
+
+    </head>
+    <body>
+
+        <div ng-app="phoneApp">
+            <div ng-controller="AppCtrl" >
+                <div phone dial="callHome(message)"></div>
+
+            </div>
+        </div>
+
+        <script src="lib/angular.js"></script>
+        <script src="isolateScope&.js"></script>
+    </body>
+</html> -->
+
+
+<!DOCTYPE html>
+<html>
+    <head lang="en">
+        <meta charset="utf-8">
+        <title>Angular JS Practices</title>
+        <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css" rel="stylesheet">
+
+    </head>
+    <body>
+
+        <div ng-app="drinkApp">
+            <div ng-controller="AppCtrl" >
+                Ctrl
+                <input type="text" ng-model="ctrlFlavor">
+                <br>
+
+                Dir
+                <div drink flavor="ctrlFlavor"></div>
+
+
+                </div>
+            </div>
+        </div>
+
+        <script src="lib/angular.js"></script>
+        <script src="isolateScope&.js"></script>
+    </body>
+</html>
